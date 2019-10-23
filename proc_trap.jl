@@ -36,7 +36,7 @@ function main(a=0, b=131072, n=32768)
         total += local_ans
     end
 
-    # println("the answer for a = $a, b = $b, n = $n: $(total[])")
+    println("the answer for a = $a, b = $b, n = $n: $(total[])")
 end
 
 for i=1:10000
